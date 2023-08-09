@@ -1,0 +1,391 @@
+/* ---- fun bubble letter font ---- */
+/* font-family: 'Bungee Shade', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* ---------------------- header ------------------------ */
+
+.header{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(125, 15, 15, 0.9); */
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    background-image: linear-gradient(rgba(125, 15, 15, 0.9),rgba(125, 15, 15, 0.9)), 
+    url(photos/stanford.jpg); 
+    background-position: center; 
+    background-size: cover;
+}
+
+
+nav{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+}
+
+nav img{
+    width: 120px;
+    margin: 30px 0px;
+    padding: 20px;
+    border: 2px solid white;
+}
+
+.nav-links ul{
+    list-style: none;
+    font-size: 20px;
+    text-align: right;
+}
+
+.nav-links ul li{
+    display: inline-block;
+    margin: 20px 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+/* .header-text-box{
+    padding-top: 10rem;
+    width: 60%;
+    margin: auto;
+    left: 20%;
+    position: absolute;
+} */
+
+
+.header-text-box{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.header-text-box h1{
+    /* font-family: 'Bungee Shade', cursive; */
+    font-size: 55px;
+    padding-bottom: 2vh;
+    /* color: #e9dabaf2; */
+    color: white;
+    
+}
+
+.header-text-box h2{
+    font-size: 40px;
+    color: rgba(219, 219, 219, 0.44);
+    font-style: italic;
+}
+
+@media(max-width: 700px) {
+    .header-text-box h1{
+        font-size: 35px;
+        
+    }
+
+    .header-text-box h2{
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+.body{
+    width: 100%;
+    background: rgba(201, 201, 201, 0.5);
+}
+/* ---------------------- what we do ------------------------ */
+
+.what-we-do{
+    padding: 10vh 0vh;
+    width: 100%;
+    /* margin: auto; */
+    align-items: center;
+    /* background-color: white; */
+}
+
+#what-we-do-text-box{
+    width: 70%;
+    margin: auto;
+    padding: 50px 30px;
+    /* background: rgb(219, 219, 219); */
+
+    background-image: linear-gradient(rgba(125, 15, 15, 0.9),rgba(125, 15, 15, 0.9)), 
+    url(photos/ssie-1.jpeg); 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /* background: rgba(125, 15, 15, 0.5); */
+    margin: auto;
+    border-radius: 25px;
+    left: 15%;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(125, 15, 15, 0.5);
+    /* box-shadow: 10px 5px 5px grey inset; */
+    
+}
+
+#what-we-do-text-box h1{
+    font-size: 40px;
+    padding-bottom: 2rem;
+    position: relative;
+    font-style: italic;
+    color: white;
+}
+
+#what-we-do-text-box h2{
+    font-size: 23px;
+}
+
+
+ /* --------------------- companies ------------------ */
+
+.companies-worked-with {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 40px;
+    /* background-color: rgba(125, 15, 15, 0.5); */
+    background-image: linear-gradient(rgba(125, 15, 15, 0.9),rgba(125, 15, 15, 0.9)), 
+    url(photos/ssie-9.jpeg); 
+    background-position: center;
+    background-size: cover;
+    transform: skewY(3deg);
+}
+
+.companies-worked-with h1{
+    font-size: 40px;
+    padding: 80px 0px 50px 0px;
+    color: white;
+    transform: skewY(-3deg);
+}
+
+.what-we-do-companies{
+    width: 60%;
+    margin: auto;
+    transform: skewY(-3deg);
+    padding-bottom: 30px;
+}
+
+.company-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    
+}
+
+.company-image{
+    flex-basis: 30%;
+    box-sizing: border-box;
+    /* text-align: center; */
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 0 10px white;
+    background: white;
+    
+
+}
+
+.company-image img{
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.company-image:hover{
+    box-shadow: 0 0 20px white;
+}
+
+
+
+/* ------------------- PEOPLE  ---------------------- */
+
+.people-met{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 60px 0px 100px 0px;
+}
+
+.people-met h1{
+    padding: 20px;
+    font-size: 40px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.alumni-col{
+    flex-basis: 23.5%;
+    position: relative;
+    
+}
+
+.alumni-col img{
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background: rgba(125, 15, 15, 0.7);
+
+}
+
+.layer h3{
+    width: 100%;
+    /* font-weight: 500; */
+    color: white;
+    font-size: 18px;
+    /* bottom: 0; */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.4s;
+    padding: 15px;
+}
+
+
+.layer:hover h3{
+    /* bottom: 25%; */
+    top: 15%;
+    opacity: 1;
+}
+
+
+/* -------------------- professional expertise --------------------- */
+
+.professional-expertise {
+    width: 100%;   
+    padding: 100px 0 40px 0;
+    text-align: center;
+    margin: auto;
+    /* transform: skewY(-7deg); */
+}
+
+.prof-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px;
+    width: 80%;
+    margin: auto;
+}
+
+.prof-text-box{
+    flex-basis: 31%;
+    border: 5px solid black;
+    background: rgba(125, 15, 15, 0.7);
+    border-radius: 10px;
+    padding: 22px;
+    /* transform: skewY(7deg); */
+}
+
+.prof-text-box:hover{
+    box-shadow: 0 0 20px black;
+}
+
+
+.professional-expertise h2{
+    font-size: 25px;
+    padding-bottom: 15px;
+
+}
+
+.professional-expertise p{
+    font-size: 17px;
+
+}
+
+/* ------------------- apply for core team -------------------- */
+
+.apply-text-box{
+    width: 70%;
+    margin: auto;
+    background-image: linear-gradient(rgba(125, 15, 15, 0.9),rgba(125, 15, 15, 0.9)), 
+    url(photos/ssie-groupsession-1.jpeg); 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px;
+}
+
+.apply-text-box h2{
+    font-size: 27px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.apply-text-box p{
+    font-size: 18px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.apply-btn{
+    font-size: 22px;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 40px;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.apply-btn:hover{
+    background: white;
+    transition: all 0.2s ease-out;
+}
+
