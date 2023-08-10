@@ -346,6 +346,10 @@ nav img{
 
 /* ------------------- apply for core team -------------------- */
 
+.apply-core{
+    padding-bottom: 90px;
+}
+
 .apply-text-box{
     width: 70%;
     margin: auto;
@@ -387,5 +391,28 @@ nav img{
 .apply-btn:hover{
     background: white;
     transition: all 0.2s ease-out;
+}
+
+
+/* ---------- footer ------------- */
+
+.footer{
+    background-color: black;
+    width: 100%; 
+    text-align: center;
+    padding: 30px 0; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer h4{
+    color: white; 
+}
+
+.icons .fa-brands{
+    margin: 0 13px; 
+    cursor: pointer; 
+    padding: 18px 0; 
+    color: white; 
+    font-size: 20px;
 }
 
