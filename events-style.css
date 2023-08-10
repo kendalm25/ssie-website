@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* ---------------------- header ------------------------ */
+
+.sub-header{
+    width: 100%;
+    height: 50vh;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    background-image: linear-gradient(rgba(125, 15, 15, 0.9),rgba(125, 15, 15, 0.9)), 
+    url(photos/ssie-3.jpeg); 
+    background-position: center; 
+    background-size: cover;
+}
+
+
+nav{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+}
+
+nav img{
+    width: 120px;
+    margin: 30px 0px;
+    padding: 20px;
+    border: 2px solid white;
+}
+
+.nav-links ul{
+    list-style: none;
+    font-size: 20px;
+    text-align: right;
+}
+
+.nav-links ul li{
+    display: inline-block;
+    margin: 20px 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.sub-header-text-box{
+    width: 60%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.sub-header h1{
+    font-size: 55px;
+    color: white;
+    
+}
+
+
+.body{
+    width: 100%;
+    background: rgba(201, 201, 201, 0.5);
+}
+
+
+
+/* ---------- footer ------------- */
+
+.footer{
+    background-color: black;
+    width: 100%; 
+    text-align: center;
+    padding: 30px 0; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer h4{
+    color: white; 
+}
+
+.icons .fa-brands{
+    margin: 0 13px; 
+    cursor: pointer; 
+    padding: 18px 0; 
+    color: white; 
+    font-size: 20px;
+}
