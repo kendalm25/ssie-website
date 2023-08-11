@@ -91,6 +91,121 @@ nav img{
 }
 
 
+ /* ----------------- why submit -------------- */
+
+.why-submit{
+    padding-top: 5vh;
+    width: 100%;
+    align-items: center;
+}
+
+
+.why-submit-text-box{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.why-submit-text-box h2{
+    font-size: 25px;
+    position: relative;
+    color: rgba(125, 15, 15);
+    padding-bottom: 80px;
+}
+
+
+ /* ----------------- contact page -------------- */
+
+ .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ .contact-us{
+    width: 80%; 
+    margin: auto; 
+ }
+
+ .contact-col-info{
+    flex-basis: 35%; 
+    margin-bottom: 30px;
+    margin-right: 5px;
+    /* margin: 30px; */
+ }
+
+ .contact-col-info div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+ }
+
+ .contact-col-info .fa-regular{
+    font-size: 28px; 
+    margin: 10px;
+    margin-right: 30px;
+ }
+
+ .contact-col-info .fa-brands{
+    font-size: 28px; 
+    margin: 10px;
+    margin-right: 30px;
+ }
+
+ .contact-col-info div p{
+    padding: 0; 
+ }
+
+ .contact-col-info div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 400;
+ }
+
+ /* ----------------- form ------------------------ */
+
+ .contact-col-form{
+    flex-basis: 60%; 
+    margin-bottom: 30px;
+    margin-left: 5px;
+    /* margin: 30px; */
+ }
+
+
+ .contact-col-form input, .contact-col-form textarea{
+    width: 100%; 
+    padding: 15px; 
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+
+ }
+
+ .submit-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff; 
+    border: 2px solid #7D0F0F; 
+    border-radius: 10px;
+    padding: 12px 34px;
+    font-size: 17px;
+    background: #7D0F0F;
+    position: relative;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.submit-btn:hover{
+    border: 2px solid #7D0F0F;
+    cursor: pointer;
+    background-color: white;
+    color: #7D0F0F;
+    transition: all 0.2s ease-out;
+}
+
+
 
 /* ---------- footer ------------- */
 
