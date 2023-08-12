@@ -91,6 +91,83 @@ nav img{
 }
 
 
+/* --------------------- our events title ----------------------- */
+
+.our-events{
+    padding: 5vh 0vh;
+    width: 100%;
+    align-items: center;
+}
+
+#our-events-text-box{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    background: transparent;
+    margin: auto;
+    border-radius: 25px;
+    text-align: center;
+}
+
+
+#our-events-text-box h1{
+    font-size: 30px;
+    position: relative;
+    /* font-style: italic; */
+    color: black;
+    font-weight: 700;
+}
+
+
+
+/* --------------------- springbreak trip -------------------------- */
+
+.spring-break-la{
+    width: 100%;
+    margin: 3% 0;
+}
+
+.spring-break-la h2{
+    text-align: center;
+    font-size: 27px;
+    padding: 30px;
+    font-style: italic;
+    color: rgba(125, 15, 15)
+}
+
+
+.spring-break-box{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+
+
+.spring-break-box-text{
+    flex: 40%;
+    margin-right: 10px;
+    position: relative;
+    margin-top: 5%;
+    
+}
+
+.spring-break-box-text p{
+    font-size: 20px;
+}
+
+.spring-break-box-photos{
+    flex: 55%;
+    margin-left: 10px;
+}
+
+.spring-break-box-photos img{
+    object-fit: cover;
+    max-width: 500px;
+}
+
+
 
 /* ---------- footer ------------- */
 

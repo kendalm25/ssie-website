@@ -163,6 +163,19 @@ nav img{
     font-weight: 400;
  }
 
+
+ @media(max-width: 900px){
+    .row{
+        flex-direction: column;
+    }
+
+    .contact-col-info{
+        justify-content: center;
+        margin: auto;
+    }
+
+ }
+
  /* ----------------- form ------------------------ */
 
  .contact-col-form{
