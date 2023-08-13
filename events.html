@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">  
     <script src="https://kit.fontawesome.com/cbf9ef0321.js" crossorigin="anonymous"></script>  
+    <script src="script.js" defer></script>
 </head>
 
 
@@ -18,7 +19,8 @@
 <section class ="sub-header">
     <nav>
         <a href="index.html>"><img src="photos/logo-ssie-white.PNG"></a>
-        <div class="nav-links">
+        <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
 
         <ul>
             <li><a href="index.html">HOME</a></li>
@@ -28,7 +30,9 @@
             <li><a href="contact.html">CONTACT</a></li>
             <li><a href="apply.html">APPLY</a></li> 
         </ul>
+
     </div>
+    <i class="fas fa-bars" onclick="showMenu()"></i>
     </nav>
 
     <div class="sub-header-text-box">
@@ -59,7 +63,7 @@
                     <p>
                         After a short hiatus, we are happy to announce that we will be bringing back the annual 
                         SSIE LA Spring Break Trip. Members of the Core Team will have the opportunity to travel down
-                        to Los Angeles to talk and connect with industry professionals and companies. 
+                        to Los Angeles to talk and connect with professionals and companies within the entertainment industry. 
                     </p>
                 </div>
 
@@ -73,18 +77,19 @@
         </section>
 
 
-    
+    <!-- ----------------------- footer -------------------------- -->
+
+        <section class="footer">
+            <h4>Copyright © 2023. Stanford Students in Entertainment</h4>
+                <div class="icons">
+                    <a href="https://www.instagram.com/ssie.stanford/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/groups/14263102/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/StanfordSIEnt/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                
+                </div>
+        </section>
+
+
 
     </section>
 
-<!-- ----------------------- footer -------------------------- -->
-
-<section class="footer">
-    <h4>Copyright © 2023. Stanford Students in Entertainment</h4>
-        <div class="icons">
-            <a href="https://www.instagram.com/ssie.stanford/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/groups/14263102/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://www.facebook.com/StanfordSIEnt/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-        
-        </div>
-</section>

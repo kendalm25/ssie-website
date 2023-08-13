@@ -69,6 +69,46 @@ nav img{
     width: 100%;
 }
 
+
+nav .fas{
+    display: none;
+}
+
+@media(max-width: 1300px) {
+
+    .nav-links ul{
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: fixed;
+        background: #7D0F0F;
+        height: 100vh; 
+        width: 250px;
+        top: 0;
+        right: -250px; 
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    nav .fas{
+        display: block;
+        color: #fff; 
+        margin: 10px; 
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px; 
+
+    }
+}
+
+
 .sub-header-text-box{
     width: 60%;
     position: absolute;
